@@ -13,6 +13,7 @@ public class Retriever
 
         try
         {
+            Console.WriteLine($"Fetching messages... {uri}");
             var response = await _httpClient.GetAsync(uri);
             if (response.IsSuccessStatusCode)
             {
