@@ -26,33 +26,34 @@ namespace Dwango.Nicolive.Chat.Data {
           string.Concat(
             "CiVkd2FuZ28vbmljb2xpdmUvY2hhdC9kYXRhL2F0b21zLnByb3RvEhlkd2Fu",
             "Z28ubmljb2xpdmUuY2hhdC5kYXRhGh5nb29nbGUvcHJvdG9idWYvZHVyYXRp",
-            "b24ucHJvdG8ijwkKBENoYXQSDwoHY29udGVudBgBIAEoCRIMCgRuYW1lGAIg",
-            "ASgJEgwKBHZwb3MYAyABKAUSRQoOYWNjb3VudF9zdGF0dXMYBCABKA4yLS5k",
-            "d2FuZ28ubmljb2xpdmUuY2hhdC5kYXRhLkNoYXQuQWNjb3VudFN0YXR1cxIV",
-            "CgtyYXdfdXNlcl9pZBgFIAEoA0gAEhgKDmhhc2hlZF91c2VyX2lkGAYgASgJ",
-            "SAASOgoIbW9kaWZpZXIYByABKAsyKC5kd2FuZ28ubmljb2xpdmUuY2hhdC5k",
-            "YXRhLkNoYXQuTW9kaWZpZXISCgoCbm8YCCABKAUa4wYKCE1vZGlmaWVyEj4K",
-            "CHBvc2l0aW9uGAEgASgOMiwuZHdhbmdvLm5pY29saXZlLmNoYXQuZGF0YS5D",
-            "aGF0Lk1vZGlmaWVyLlBvcxI7CgRzaXplGAIgASgOMi0uZHdhbmdvLm5pY29s",
-            "aXZlLmNoYXQuZGF0YS5DaGF0Lk1vZGlmaWVyLlNpemUSSQoLbmFtZWRfY29s",
-            "b3IYAyABKA4yMi5kd2FuZ28ubmljb2xpdmUuY2hhdC5kYXRhLkNoYXQuTW9k",
-            "aWZpZXIuQ29sb3JOYW1lSAASSAoKZnVsbF9jb2xvchgEIAEoCzIyLmR3YW5n",
-            "by5uaWNvbGl2ZS5jaGF0LmRhdGEuQ2hhdC5Nb2RpZmllci5GdWxsQ29sb3JI",
-            "ABI7CgRmb250GAUgASgOMi0uZHdhbmdvLm5pY29saXZlLmNoYXQuZGF0YS5D",
-            "aGF0Lk1vZGlmaWVyLkZvbnQSQQoHb3BhY2l0eRgGIAEoDjIwLmR3YW5nby5u",
-            "aWNvbGl2ZS5jaGF0LmRhdGEuQ2hhdC5Nb2RpZmllci5PcGFjaXR5GiwKCUZ1",
-            "bGxDb2xvchIJCgFyGAEgASgFEgkKAWcYAiABKAUSCQoBYhgDIAEoBSIiCgNQ",
-            "b3MSCAoEbmFrYRAAEgkKBXNoaXRhEAESBgoCdWUQAiImCgRTaXplEgoKBm1l",
-            "ZGl1bRAAEgkKBXNtYWxsEAESBwoDYmlnEAIi7QEKCUNvbG9yTmFtZRIJCgV3",
-            "aGl0ZRAAEgcKA3JlZBABEggKBHBpbmsQAhIKCgZvcmFuZ2UQAxIKCgZ5ZWxs",
-            "b3cQBBIJCgVncmVlbhAFEggKBGN5YW4QBhIICgRibHVlEAcSCgoGcHVycGxl",
-            "EAgSCQoFYmxhY2sQCRIKCgZ3aGl0ZTIQChIICgRyZWQyEAsSCQoFcGluazIQ",
-            "DBILCgdvcmFuZ2UyEA0SCwoHeWVsbG93MhAOEgoKBmdyZWVuMhAPEgkKBWN5",
-            "YW4yEBASCQoFYmx1ZTIQERILCgdwdXJwbGUyEBISCgoGYmxhY2syEBMiKgoE",
-            "Rm9udBIKCgZkZWZvbnQQABIKCgZtaW5jaG8QARIKCgZnb3RoaWMQAiImCgdP",
-            "cGFjaXR5EgoKBk5vcm1hbBAAEg8KC1RyYW5zbHVjZW50EAFCBwoFY29sb3Ii",
-            "KgoNQWNjb3VudFN0YXR1cxIMCghTdGFuZGFyZBAAEgsKB1ByZW1pdW0QAUII",
-            "CgZzb3VyY2UilgEKD09wZXJhdG9yQ29tbWVudBIPCgdjb250ZW50GAEgASgJ",
+            "b24ucHJvdG8ivAkKBENoYXQSDwoHY29udGVudBgBIAEoCRIMCgR2cG9zGAMg",
+            "ASgFEkUKDmFjY291bnRfc3RhdHVzGAQgASgOMi0uZHdhbmdvLm5pY29saXZl",
+            "LmNoYXQuZGF0YS5DaGF0LkFjY291bnRTdGF0dXMSEQoEbmFtZRgCIAEoCUgA",
+            "iAEBEhgKC3Jhd191c2VyX2lkGAUgASgDSAGIAQESGwoOaGFzaGVkX3VzZXJf",
+            "aWQYBiABKAlIAogBARI6Cghtb2RpZmllchgHIAEoCzIoLmR3YW5nby5uaWNv",
+            "bGl2ZS5jaGF0LmRhdGEuQ2hhdC5Nb2RpZmllchIKCgJubxgIIAEoBRrjBgoI",
+            "TW9kaWZpZXISPgoIcG9zaXRpb24YASABKA4yLC5kd2FuZ28ubmljb2xpdmUu",
+            "Y2hhdC5kYXRhLkNoYXQuTW9kaWZpZXIuUG9zEjsKBHNpemUYAiABKA4yLS5k",
+            "d2FuZ28ubmljb2xpdmUuY2hhdC5kYXRhLkNoYXQuTW9kaWZpZXIuU2l6ZRJJ",
+            "CgtuYW1lZF9jb2xvchgDIAEoDjIyLmR3YW5nby5uaWNvbGl2ZS5jaGF0LmRh",
+            "dGEuQ2hhdC5Nb2RpZmllci5Db2xvck5hbWVIABJICgpmdWxsX2NvbG9yGAQg",
+            "ASgLMjIuZHdhbmdvLm5pY29saXZlLmNoYXQuZGF0YS5DaGF0Lk1vZGlmaWVy",
+            "LkZ1bGxDb2xvckgAEjsKBGZvbnQYBSABKA4yLS5kd2FuZ28ubmljb2xpdmUu",
+            "Y2hhdC5kYXRhLkNoYXQuTW9kaWZpZXIuRm9udBJBCgdvcGFjaXR5GAYgASgO",
+            "MjAuZHdhbmdvLm5pY29saXZlLmNoYXQuZGF0YS5DaGF0Lk1vZGlmaWVyLk9w",
+            "YWNpdHkaLAoJRnVsbENvbG9yEgkKAXIYASABKAUSCQoBZxgCIAEoBRIJCgFi",
+            "GAMgASgFIiIKA1BvcxIICgRuYWthEAASCQoFc2hpdGEQARIGCgJ1ZRACIiYK",
+            "BFNpemUSCgoGbWVkaXVtEAASCQoFc21hbGwQARIHCgNiaWcQAiLtAQoJQ29s",
+            "b3JOYW1lEgkKBXdoaXRlEAASBwoDcmVkEAESCAoEcGluaxACEgoKBm9yYW5n",
+            "ZRADEgoKBnllbGxvdxAEEgkKBWdyZWVuEAUSCAoEY3lhbhAGEggKBGJsdWUQ",
+            "BxIKCgZwdXJwbGUQCBIJCgVibGFjaxAJEgoKBndoaXRlMhAKEggKBHJlZDIQ",
+            "CxIJCgVwaW5rMhAMEgsKB29yYW5nZTIQDRILCgd5ZWxsb3cyEA4SCgoGZ3Jl",
+            "ZW4yEA8SCQoFY3lhbjIQEBIJCgVibHVlMhAREgsKB3B1cnBsZTIQEhIKCgZi",
+            "bGFjazIQEyIqCgRGb250EgoKBmRlZm9udBAAEgoKBm1pbmNobxABEgoKBmdv",
+            "dGhpYxACIiYKB09wYWNpdHkSCgoGTm9ybWFsEAASDwoLVHJhbnNsdWNlbnQQ",
+            "AUIHCgVjb2xvciIqCg1BY2NvdW50U3RhdHVzEgwKCFN0YW5kYXJkEAASCwoH",
+            "UHJlbWl1bRABQgcKBV9uYW1lQg4KDF9yYXdfdXNlcl9pZEIRCg9faGFzaGVk",
+            "X3VzZXJfaWQilgEKD09wZXJhdG9yQ29tbWVudBIPCgdjb250ZW50GAEgASgJ",
             "EhEKBG5hbWUYAiABKAlIAIgBARI6Cghtb2RpZmllchgDIAEoCzIoLmR3YW5n",
             "by5uaWNvbGl2ZS5jaGF0LmRhdGEuQ2hhdC5Nb2RpZmllchIRCgRsaW5rGAQg",
             "ASgJSAGIAQFCBwoFX25hbWVCBwoFX2xpbmsiUQoESnVtcBIPCgdjb250ZW50",
@@ -85,49 +86,41 @@ namespace Dwango.Nicolive.Chat.Data {
             "cxIQCgxVbnJlc3RyaWN0ZWQQABIKCgZMb2NrZWQQASKAAQoLQ29tbWVudE1v",
             "ZGUSPQoGbGF5b3V0GAEgASgOMi0uZHdhbmdvLm5pY29saXZlLmNoYXQuZGF0",
             "YS5Db21tZW50TW9kZS5MYXlvdXQiMgoGTGF5b3V0EgoKBk5vcm1hbBAAEgwK",
-            "CFNwbGl0VG9wEAESDgoKQmFja2dyb3VuZBACIgwKCkdhbWVVcGRhdGUi4wIK",
-            "C0ZpbmdlclByaW50EkEKCHBvc2l0aW9uGAEgASgOMi8uZHdhbmdvLm5pY29s",
-            "aXZlLmNoYXQuZGF0YS5GaW5nZXJQcmludC5Qb3NpdGlvbhI5CgRzaXplGAIg",
-            "ASgOMisuZHdhbmdvLm5pY29saXZlLmNoYXQuZGF0YS5GaW5nZXJQcmludC5T",
-            "aXplEisKCGR1cmF0aW9uGAQgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0",
-            "aW9uIoABCghQb3NpdGlvbhIHCgNvZmYQABIPCgtoaWRhcmlzaGl0YRABEgkK",
-            "BXNoaXRhEAISDQoJbWlnaXNoaXRhEAMSCgoGaGlkYXJpEAQSCAoEbmFrYRAF",
-            "EggKBG1pZ2kQBhIMCghoaWRhcml1ZRAHEgYKAnVlEAgSCgoGbWlnaXVlEAki",
-            "JgoEU2l6ZRIJCgVzbWFsbBAAEgoKBm1pZGRsZRABEgcKA2JpZxACIuQBCgpU",
-            "cmlhbFBhbmVsEjoKBXBhbmVsGAEgASgOMisuZHdhbmdvLm5pY29saXZlLmNo",
-            "YXQuZGF0YS5UcmlhbFBhbmVsLlBhbmVsEkQKEHVucXVhbGlmaWVkX3VzZXIY",
-            "AiABKA4yKi5kd2FuZ28ubmljb2xpdmUuY2hhdC5kYXRhLlRyaWFsUGFuZWwu",
-            "TW9kZSIgCgVQYW5lbBIKCgZIaWRkZW4QABILCgdEaXNwbGF5EAEiMgoETW9k",
-            "ZRILCgdBbGxvd2VkEAASDgoKUmVzdHJpY3RlZBABEg0KCUZvcmJpZGRlbhAC",
-            "Im8KDVByb2dyYW1TdGF0dXMSPQoFc3RhdGUYASABKA4yLi5kd2FuZ28ubmlj",
-            "b2xpdmUuY2hhdC5kYXRhLlByb2dyYW1TdGF0dXMuU3RhdGUiHwoFU3RhdGUS",
-            "CwoHVW5rbm93bhAAEgkKBUVuZGVkEAEiqQEKClRhZ1VwZGF0ZWQSNwoEdGFn",
-            "cxgBIAMoCzIpLmR3YW5nby5uaWNvbGl2ZS5jaGF0LmRhdGEuVGFnVXBkYXRl",
-            "ZC5UYWcSFAoMb3duZXJfbG9ja2VkGAIgASgIGkwKA1RhZxIMCgR0ZXh0GAEg",
-            "ASgJEg4KBmxvY2tlZBgCIAEoCBIQCghyZXNlcnZlZBgDIAEoCBIVCg1uaWNv",
-            "cGVkaWFfdXJpGAQgASgJIqgBCgpTdGF0aXN0aWNzEhQKB3ZpZXdlcnMYASAB",
-            "KANIAIgBARIVCghjb21tZW50cxgCIAEoA0gBiAEBEhYKCWFkX3BvaW50cxgD",
-            "IAEoA0gCiAEBEhgKC2dpZnRfcG9pbnRzGAQgASgDSAOIAQFCCgoIX3ZpZXdl",
-            "cnNCCwoJX2NvbW1lbnRzQgwKCl9hZF9wb2ludHNCDgoMX2dpZnRfcG9pbnRz",
-            "SgQIBRAGIugBCgdNYXJxdWVlEkAKB2Rpc3BsYXkYASABKAsyKi5kd2FuZ28u",
-            "bmljb2xpdmUuY2hhdC5kYXRhLk1hcnF1ZWUuRGlzcGxheUgAiAEBGo4BCgdE",
-            "aXNwbGF5EkQKEG9wZXJhdG9yX2NvbW1lbnQYASABKAsyKi5kd2FuZ28ubmlj",
-            "b2xpdmUuY2hhdC5kYXRhLk9wZXJhdG9yQ29tbWVudBIwCghkdXJhdGlvbhgD",
-            "IAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbkgAiAEBQgsKCV9kdXJh",
-            "dGlvbkIKCghfZGlzcGxheSKDAgoHRW5xdWV0ZRIQCghxdWVzdGlvbhgBIAEo",
-            "CRI6CgdjaG9pY2VzGAIgAygLMikuZHdhbmdvLm5pY29saXZlLmNoYXQuZGF0",
-            "YS5FbnF1ZXRlLkNob2ljZRI5CgZzdGF0dXMYAyABKA4yKS5kd2FuZ28ubmlj",
-            "b2xpdmUuY2hhdC5kYXRhLkVucXVldGUuU3RhdHVzGkMKBkNob2ljZRITCgtk",
-            "ZXNjcmlwdGlvbhgBIAEoCRIWCglwZXJfbWlsbGUYAyABKAVIAIgBAUIMCgpf",
-            "cGVyX21pbGxlIioKBlN0YXR1cxIKCgZDbG9zZWQQABIICgRQb2xsEAESCgoG",
-            "UmVzdWx0EAIiewoJTW92ZU9yZGVyEi8KBGp1bXAYASABKAsyHy5kd2FuZ28u",
-            "bmljb2xpdmUuY2hhdC5kYXRhLkp1bXBIABI3CghyZWRpcmVjdBgCIAEoCzIj",
-            "LmR3YW5nby5uaWNvbGl2ZS5jaGF0LmRhdGEuUmVkaXJlY3RIAEIECgJ0b2IG",
-            "cHJvdG8z"));
+            "CFNwbGl0VG9wEAESDgoKQmFja2dyb3VuZBACIgwKCkdhbWVVcGRhdGUi5AEK",
+            "ClRyaWFsUGFuZWwSOgoFcGFuZWwYASABKA4yKy5kd2FuZ28ubmljb2xpdmUu",
+            "Y2hhdC5kYXRhLlRyaWFsUGFuZWwuUGFuZWwSRAoQdW5xdWFsaWZpZWRfdXNl",
+            "chgCIAEoDjIqLmR3YW5nby5uaWNvbGl2ZS5jaGF0LmRhdGEuVHJpYWxQYW5l",
+            "bC5Nb2RlIiAKBVBhbmVsEgoKBkhpZGRlbhAAEgsKB0Rpc3BsYXkQASIyCgRN",
+            "b2RlEgsKB0FsbG93ZWQQABIOCgpSZXN0cmljdGVkEAESDQoJRm9yYmlkZGVu",
+            "EAIibwoNUHJvZ3JhbVN0YXR1cxI9CgVzdGF0ZRgBIAEoDjIuLmR3YW5nby5u",
+            "aWNvbGl2ZS5jaGF0LmRhdGEuUHJvZ3JhbVN0YXR1cy5TdGF0ZSIfCgVTdGF0",
+            "ZRILCgdVbmtub3duEAASCQoFRW5kZWQQASKpAQoKVGFnVXBkYXRlZBI3CgR0",
+            "YWdzGAEgAygLMikuZHdhbmdvLm5pY29saXZlLmNoYXQuZGF0YS5UYWdVcGRh",
+            "dGVkLlRhZxIUCgxvd25lcl9sb2NrZWQYAiABKAgaTAoDVGFnEgwKBHRleHQY",
+            "ASABKAkSDgoGbG9ja2VkGAIgASgIEhAKCHJlc2VydmVkGAMgASgIEhUKDW5p",
+            "Y29wZWRpYV91cmkYBCABKAkiqAEKClN0YXRpc3RpY3MSFAoHdmlld2VycxgB",
+            "IAEoA0gAiAEBEhUKCGNvbW1lbnRzGAIgASgDSAGIAQESFgoJYWRfcG9pbnRz",
+            "GAMgASgDSAKIAQESGAoLZ2lmdF9wb2ludHMYBCABKANIA4gBAUIKCghfdmll",
+            "d2Vyc0ILCglfY29tbWVudHNCDAoKX2FkX3BvaW50c0IOCgxfZ2lmdF9wb2lu",
+            "dHNKBAgFEAYi6AEKB01hcnF1ZWUSQAoHZGlzcGxheRgBIAEoCzIqLmR3YW5n",
+            "by5uaWNvbGl2ZS5jaGF0LmRhdGEuTWFycXVlZS5EaXNwbGF5SACIAQEajgEK",
+            "B0Rpc3BsYXkSRAoQb3BlcmF0b3JfY29tbWVudBgBIAEoCzIqLmR3YW5nby5u",
+            "aWNvbGl2ZS5jaGF0LmRhdGEuT3BlcmF0b3JDb21tZW50EjAKCGR1cmF0aW9u",
+            "GAMgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uSACIAQFCCwoJX2R1",
+            "cmF0aW9uQgoKCF9kaXNwbGF5IoMCCgdFbnF1ZXRlEhAKCHF1ZXN0aW9uGAEg",
+            "ASgJEjoKB2Nob2ljZXMYAiADKAsyKS5kd2FuZ28ubmljb2xpdmUuY2hhdC5k",
+            "YXRhLkVucXVldGUuQ2hvaWNlEjkKBnN0YXR1cxgDIAEoDjIpLmR3YW5nby5u",
+            "aWNvbGl2ZS5jaGF0LmRhdGEuRW5xdWV0ZS5TdGF0dXMaQwoGQ2hvaWNlEhMK",
+            "C2Rlc2NyaXB0aW9uGAEgASgJEhYKCXBlcl9taWxsZRgDIAEoBUgAiAEBQgwK",
+            "Cl9wZXJfbWlsbGUiKgoGU3RhdHVzEgoKBkNsb3NlZBAAEggKBFBvbGwQARIK",
+            "CgZSZXN1bHQQAiJ7CglNb3ZlT3JkZXISLwoEanVtcBgBIAEoCzIfLmR3YW5n",
+            "by5uaWNvbGl2ZS5jaGF0LmRhdGEuSnVtcEgAEjcKCHJlZGlyZWN0GAIgASgL",
+            "MiMuZHdhbmdvLm5pY29saXZlLmNoYXQuZGF0YS5SZWRpcmVjdEgAQgQKAnRv",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.Chat), global::Dwango.Nicolive.Chat.Data.Chat.Parser, new[]{ "Content", "Name", "Vpos", "AccountStatus", "RawUserId", "HashedUserId", "Modifier", "No" }, new[]{ "Source" }, new[]{ typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.AccountStatus) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier), global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Parser, new[]{ "Position", "Size", "NamedColor", "FullColor", "Font", "Opacity" }, new[]{ "Color" }, new[]{ typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.Pos), typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.Size), typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.ColorName), typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.Font), typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.Opacity) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.FullColor), global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.FullColor.Parser, new[]{ "R", "G", "B" }, null, null, null, null)})}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.Chat), global::Dwango.Nicolive.Chat.Data.Chat.Parser, new[]{ "Content", "Vpos", "AccountStatus", "Name", "RawUserId", "HashedUserId", "Modifier", "No" }, new[]{ "Name", "RawUserId", "HashedUserId" }, new[]{ typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.AccountStatus) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier), global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Parser, new[]{ "Position", "Size", "NamedColor", "FullColor", "Font", "Opacity" }, new[]{ "Color" }, new[]{ typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.Pos), typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.Size), typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.ColorName), typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.Font), typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.Opacity) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.FullColor), global::Dwango.Nicolive.Chat.Data.Chat.Types.Modifier.Types.FullColor.Parser, new[]{ "R", "G", "B" }, null, null, null, null)})}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.OperatorComment), global::Dwango.Nicolive.Chat.Data.OperatorComment.Parser, new[]{ "Content", "Name", "Modifier", "Link" }, new[]{ "Name", "Link" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.Jump), global::Dwango.Nicolive.Chat.Data.Jump.Parser, new[]{ "Content", "Message", "Wait" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.Redirect), global::Dwango.Nicolive.Chat.Data.Redirect.Parser, new[]{ "Uri", "Message", "Wait" }, null, null, null, null),
@@ -139,7 +132,6 @@ namespace Dwango.Nicolive.Chat.Data {
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.CommentLock), global::Dwango.Nicolive.Chat.Data.CommentLock.Parser, new[]{ "Status" }, null, new[]{ typeof(global::Dwango.Nicolive.Chat.Data.CommentLock.Types.Status) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.CommentMode), global::Dwango.Nicolive.Chat.Data.CommentMode.Parser, new[]{ "Layout" }, null, new[]{ typeof(global::Dwango.Nicolive.Chat.Data.CommentMode.Types.Layout) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.GameUpdate), global::Dwango.Nicolive.Chat.Data.GameUpdate.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.FingerPrint), global::Dwango.Nicolive.Chat.Data.FingerPrint.Parser, new[]{ "Position", "Size", "Duration" }, null, new[]{ typeof(global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position), typeof(global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.TrialPanel), global::Dwango.Nicolive.Chat.Data.TrialPanel.Parser, new[]{ "Panel", "UnqualifiedUser" }, null, new[]{ typeof(global::Dwango.Nicolive.Chat.Data.TrialPanel.Types.Panel), typeof(global::Dwango.Nicolive.Chat.Data.TrialPanel.Types.Mode) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.ProgramStatus), global::Dwango.Nicolive.Chat.Data.ProgramStatus.Parser, new[]{ "State" }, null, new[]{ typeof(global::Dwango.Nicolive.Chat.Data.ProgramStatus.Types.State) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.TagUpdated), global::Dwango.Nicolive.Chat.Data.TagUpdated.Parser, new[]{ "Tags", "OwnerLocked" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwango.Nicolive.Chat.Data.TagUpdated.Types.Tag), global::Dwango.Nicolive.Chat.Data.TagUpdated.Types.Tag.Parser, new[]{ "Text", "Locked", "Reserved", "NicopediaUri" }, null, null, null, null)}),
@@ -161,6 +153,7 @@ namespace Dwango.Nicolive.Chat.Data {
   {
     private static readonly pb::MessageParser<Chat> _parser = new pb::MessageParser<Chat>(() => new Chat());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<Chat> Parser { get { return _parser; } }
@@ -188,21 +181,15 @@ namespace Dwango.Nicolive.Chat.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Chat(Chat other) : this() {
+      _hasBits0 = other._hasBits0;
       content_ = other.content_;
-      name_ = other.name_;
       vpos_ = other.vpos_;
       accountStatus_ = other.accountStatus_;
+      name_ = other.name_;
+      rawUserId_ = other.rawUserId_;
+      hashedUserId_ = other.hashedUserId_;
       modifier_ = other.modifier_ != null ? other.modifier_.Clone() : null;
       no_ = other.no_;
-      switch (other.SourceCase) {
-        case SourceOneofCase.RawUserId:
-          RawUserId = other.RawUserId;
-          break;
-        case SourceOneofCase.HashedUserId:
-          HashedUserId = other.HashedUserId;
-          break;
-      }
-
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -221,18 +208,6 @@ namespace Dwango.Nicolive.Chat.Data {
       get { return content_; }
       set {
         content_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 2;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -260,56 +235,83 @@ namespace Dwango.Nicolive.Chat.Data {
       }
     }
 
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 2;
+    private readonly static string NameDefaultValue = "";
+
+    private string name_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_ ?? NameDefaultValue; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "name" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasName {
+      get { return name_ != null; }
+    }
+    /// <summary>Clears the value of the "name" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearName() {
+      name_ = null;
+    }
+
     /// <summary>Field number for the "raw_user_id" field.</summary>
     public const int RawUserIdFieldNumber = 5;
+    private readonly static long RawUserIdDefaultValue = 0L;
+
+    private long rawUserId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long RawUserId {
-      get { return HasRawUserId ? (long) source_ : 0L; }
+      get { if ((_hasBits0 & 1) != 0) { return rawUserId_; } else { return RawUserIdDefaultValue; } }
       set {
-        source_ = value;
-        sourceCase_ = SourceOneofCase.RawUserId;
+        _hasBits0 |= 1;
+        rawUserId_ = value;
       }
     }
     /// <summary>Gets whether the "raw_user_id" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasRawUserId {
-      get { return sourceCase_ == SourceOneofCase.RawUserId; }
+      get { return (_hasBits0 & 1) != 0; }
     }
-    /// <summary> Clears the value of the oneof if it's currently set to "raw_user_id" </summary>
+    /// <summary>Clears the value of the "raw_user_id" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearRawUserId() {
-      if (HasRawUserId) {
-        ClearSource();
-      }
+      _hasBits0 &= ~1;
     }
 
     /// <summary>Field number for the "hashed_user_id" field.</summary>
     public const int HashedUserIdFieldNumber = 6;
+    private readonly static string HashedUserIdDefaultValue = "";
+
+    private string hashedUserId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string HashedUserId {
-      get { return HasHashedUserId ? (string) source_ : ""; }
+      get { return hashedUserId_ ?? HashedUserIdDefaultValue; }
       set {
-        source_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-        sourceCase_ = SourceOneofCase.HashedUserId;
+        hashedUserId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
     /// <summary>Gets whether the "hashed_user_id" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasHashedUserId {
-      get { return sourceCase_ == SourceOneofCase.HashedUserId; }
+      get { return hashedUserId_ != null; }
     }
-    /// <summary> Clears the value of the oneof if it's currently set to "hashed_user_id" </summary>
+    /// <summary>Clears the value of the "hashed_user_id" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearHashedUserId() {
-      if (HasHashedUserId) {
-        ClearSource();
-      }
+      hashedUserId_ = null;
     }
 
     /// <summary>Field number for the "modifier" field.</summary>
@@ -336,27 +338,6 @@ namespace Dwango.Nicolive.Chat.Data {
       }
     }
 
-    private object source_;
-    /// <summary>Enum of possible cases for the "source" oneof.</summary>
-    public enum SourceOneofCase {
-      None = 0,
-      RawUserId = 5,
-      HashedUserId = 6,
-    }
-    private SourceOneofCase sourceCase_ = SourceOneofCase.None;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SourceOneofCase SourceCase {
-      get { return sourceCase_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearSource() {
-      sourceCase_ = SourceOneofCase.None;
-      source_ = null;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -373,14 +354,13 @@ namespace Dwango.Nicolive.Chat.Data {
         return true;
       }
       if (Content != other.Content) return false;
-      if (Name != other.Name) return false;
       if (Vpos != other.Vpos) return false;
       if (AccountStatus != other.AccountStatus) return false;
+      if (Name != other.Name) return false;
       if (RawUserId != other.RawUserId) return false;
       if (HashedUserId != other.HashedUserId) return false;
       if (!object.Equals(Modifier, other.Modifier)) return false;
       if (No != other.No) return false;
-      if (SourceCase != other.SourceCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -389,14 +369,13 @@ namespace Dwango.Nicolive.Chat.Data {
     public override int GetHashCode() {
       int hash = 1;
       if (Content.Length != 0) hash ^= Content.GetHashCode();
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Vpos != 0) hash ^= Vpos.GetHashCode();
       if (AccountStatus != global::Dwango.Nicolive.Chat.Data.Chat.Types.AccountStatus.Standard) hash ^= AccountStatus.GetHashCode();
+      if (HasName) hash ^= Name.GetHashCode();
       if (HasRawUserId) hash ^= RawUserId.GetHashCode();
       if (HasHashedUserId) hash ^= HashedUserId.GetHashCode();
       if (modifier_ != null) hash ^= Modifier.GetHashCode();
       if (No != 0) hash ^= No.GetHashCode();
-      hash ^= (int) sourceCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -419,7 +398,7 @@ namespace Dwango.Nicolive.Chat.Data {
         output.WriteRawTag(10);
         output.WriteString(Content);
       }
-      if (Name.Length != 0) {
+      if (HasName) {
         output.WriteRawTag(18);
         output.WriteString(Name);
       }
@@ -461,7 +440,7 @@ namespace Dwango.Nicolive.Chat.Data {
         output.WriteRawTag(10);
         output.WriteString(Content);
       }
-      if (Name.Length != 0) {
+      if (HasName) {
         output.WriteRawTag(18);
         output.WriteString(Name);
       }
@@ -502,14 +481,14 @@ namespace Dwango.Nicolive.Chat.Data {
       if (Content.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Content);
       }
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
       if (Vpos != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Vpos);
       }
       if (AccountStatus != global::Dwango.Nicolive.Chat.Data.Chat.Types.AccountStatus.Standard) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AccountStatus);
+      }
+      if (HasName) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (HasRawUserId) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(RawUserId);
@@ -538,14 +517,20 @@ namespace Dwango.Nicolive.Chat.Data {
       if (other.Content.Length != 0) {
         Content = other.Content;
       }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
       if (other.Vpos != 0) {
         Vpos = other.Vpos;
       }
       if (other.AccountStatus != global::Dwango.Nicolive.Chat.Data.Chat.Types.AccountStatus.Standard) {
         AccountStatus = other.AccountStatus;
+      }
+      if (other.HasName) {
+        Name = other.Name;
+      }
+      if (other.HasRawUserId) {
+        RawUserId = other.RawUserId;
+      }
+      if (other.HasHashedUserId) {
+        HashedUserId = other.HashedUserId;
       }
       if (other.modifier_ != null) {
         if (modifier_ == null) {
@@ -556,15 +541,6 @@ namespace Dwango.Nicolive.Chat.Data {
       if (other.No != 0) {
         No = other.No;
       }
-      switch (other.SourceCase) {
-        case SourceOneofCase.RawUserId:
-          RawUserId = other.RawUserId;
-          break;
-        case SourceOneofCase.HashedUserId:
-          HashedUserId = other.HashedUserId;
-          break;
-      }
-
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5470,314 +5446,6 @@ namespace Dwango.Nicolive.Chat.Data {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class FingerPrint : pb::IMessage<FingerPrint>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<FingerPrint> _parser = new pb::MessageParser<FingerPrint>(() => new FingerPrint());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<FingerPrint> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[10]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FingerPrint() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FingerPrint(FingerPrint other) : this() {
-      position_ = other.position_;
-      size_ = other.size_;
-      duration_ = other.duration_ != null ? other.duration_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public FingerPrint Clone() {
-      return new FingerPrint(this);
-    }
-
-    /// <summary>Field number for the "position" field.</summary>
-    public const int PositionFieldNumber = 1;
-    private global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position position_ = global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position.Off;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position Position {
-      get { return position_; }
-      set {
-        position_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "size" field.</summary>
-    public const int SizeFieldNumber = 2;
-    private global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size size_ = global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size.Small;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size Size {
-      get { return size_; }
-      set {
-        size_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "duration" field.</summary>
-    public const int DurationFieldNumber = 4;
-    private global::Google.Protobuf.WellKnownTypes.Duration duration_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Google.Protobuf.WellKnownTypes.Duration Duration {
-      get { return duration_; }
-      set {
-        duration_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as FingerPrint);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(FingerPrint other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Position != other.Position) return false;
-      if (Size != other.Size) return false;
-      if (!object.Equals(Duration, other.Duration)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Position != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position.Off) hash ^= Position.GetHashCode();
-      if (Size != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size.Small) hash ^= Size.GetHashCode();
-      if (duration_ != null) hash ^= Duration.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Position != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position.Off) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) Position);
-      }
-      if (Size != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size.Small) {
-        output.WriteRawTag(16);
-        output.WriteEnum((int) Size);
-      }
-      if (duration_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Duration);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Position != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position.Off) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) Position);
-      }
-      if (Size != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size.Small) {
-        output.WriteRawTag(16);
-        output.WriteEnum((int) Size);
-      }
-      if (duration_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Duration);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Position != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position.Off) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Position);
-      }
-      if (Size != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size.Small) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Size);
-      }
-      if (duration_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Duration);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(FingerPrint other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Position != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position.Off) {
-        Position = other.Position;
-      }
-      if (other.Size != global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size.Small) {
-        Size = other.Size;
-      }
-      if (other.duration_ != null) {
-        if (duration_ == null) {
-          Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
-        }
-        Duration.MergeFrom(other.Duration);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Position = (global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position) input.ReadEnum();
-            break;
-          }
-          case 16: {
-            Size = (global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size) input.ReadEnum();
-            break;
-          }
-          case 34: {
-            if (duration_ == null) {
-              Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
-            }
-            input.ReadMessage(Duration);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            Position = (global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Position) input.ReadEnum();
-            break;
-          }
-          case 16: {
-            Size = (global::Dwango.Nicolive.Chat.Data.FingerPrint.Types.Size) input.ReadEnum();
-            break;
-          }
-          case 34: {
-            if (duration_ == null) {
-              Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
-            }
-            input.ReadMessage(Duration);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-    #region Nested types
-    /// <summary>Container for nested types declared in the FingerPrint message type.</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static partial class Types {
-      public enum Position {
-        [pbr::OriginalName("off")] Off = 0,
-        [pbr::OriginalName("hidarishita")] Hidarishita = 1,
-        [pbr::OriginalName("shita")] Shita = 2,
-        [pbr::OriginalName("migishita")] Migishita = 3,
-        [pbr::OriginalName("hidari")] Hidari = 4,
-        [pbr::OriginalName("naka")] Naka = 5,
-        [pbr::OriginalName("migi")] Migi = 6,
-        [pbr::OriginalName("hidariue")] Hidariue = 7,
-        [pbr::OriginalName("ue")] Ue = 8,
-        [pbr::OriginalName("migiue")] Migiue = 9,
-      }
-
-      public enum Size {
-        [pbr::OriginalName("small")] Small = 0,
-        [pbr::OriginalName("middle")] Middle = 1,
-        [pbr::OriginalName("big")] Big = 2,
-      }
-
-    }
-    #endregion
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TrialPanel : pb::IMessage<TrialPanel>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5792,7 +5460,7 @@ namespace Dwango.Nicolive.Chat.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6046,7 +5714,7 @@ namespace Dwango.Nicolive.Chat.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6257,7 +5925,7 @@ namespace Dwango.Nicolive.Chat.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6799,7 +6467,7 @@ namespace Dwango.Nicolive.Chat.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7169,7 +6837,7 @@ namespace Dwango.Nicolive.Chat.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7637,7 +7305,7 @@ namespace Dwango.Nicolive.Chat.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8164,7 +7832,7 @@ namespace Dwango.Nicolive.Chat.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Dwango.Nicolive.Chat.Data.AtomsReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
