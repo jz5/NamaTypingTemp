@@ -1,4 +1,4 @@
-﻿using Dwango.Nicolive.Chat.Service.Edge;
+using Dwango.Nicolive.Chat.Service.Edge;
 using Google.Protobuf;
 using Google.Protobuf.WellKnownTypes;
 using NamaTyping.NicoLive;
@@ -22,7 +22,7 @@ class Program
             $"https://mpn.live.nicovideo.jp/api/view/v4/BBxpyaqzTjyoP0nvLMKOvkjmKTDleM-f9UBU85TpEHp8sDIbU65MxXFMBzQxBUQ";
 
         // メッセージの取得と表示
-        await FetchForwardPlaylistMessagesAsync(retriever, entryParser, messageParser, uri, 0);
+        await FetchForwardPlaylistMessagesAsync(retriever, entryParser, messageParser, uri, at);
 
 
         Console.ReadKey(true);
@@ -41,8 +41,8 @@ class Program
         var next = from;
         while (true)
         {
-            var at = next <= 0 ? "now" : next.ToString();
-            var entries = await retriever.RetrieveAsync($"{uri}?at={at}", entryParser);
+            // var at = next <= 0 ? "now" : next.ToString();
+            var entries = await retriever.RetrieveAsync($"{uri}?at={next}", entryParser);
             foreach (var entry in entries)
             {
                 Console.WriteLine($"ChunkedEntry: {entry}"); // メッセージの内容を表示
