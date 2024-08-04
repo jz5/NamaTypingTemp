@@ -7,53 +7,54 @@ public class Retriever
 {
     private readonly HttpClient _httpClient = new();
 
-    public async Task<IEnumerable<T>> RetrieveAsync<T>(string uri, MessageParser<T> parser) where T : IMessage<T>
+    public async IAsyncEnumerable<T> RetrieveAsync<T>(string uri, MessageParser<T> parser) where T : IMessage<T>
     {
-        var messages = new List<T>();
-
         Console.WriteLine($"Fetching messages... {uri}");
         HttpResponseMessage response;
         try
         {
-            response = (await _httpClient.GetAsync(uri)).EnsureSuccessStatusCode();
+            response = (await _httpClient.GetAsync(uri, HttpCompletionOption.ResponseHeadersRead))
+                .EnsureSuccessStatusCode();
         }
         catch (HttpRequestException e)
         {
             Console.WriteLine($"Network error while fetching messages: {e.Message}");
             // 通信エラーの再試行などの処理をここに追加
-            return messages;
+            yield break;
         }
 
         var stream = await response.Content.ReadAsStreamAsync();
-        using var memoryStream = new MemoryStream();
-        await stream.CopyToAsync(memoryStream);
-        memoryStream.Position = 0;
-
         List<byte> unread = new List<byte>();
+        var readBuffer = new byte[8192];
+        int bytesRead;
 
-        while (memoryStream.Position < memoryStream.Length)
+        while ((bytesRead = await stream.ReadAsync(readBuffer)) > 0)
         {
-            try
+            unread.AddRange(readBuffer[..bytesRead]);
+
+            var memoryStream = new MemoryStream(unread.ToArray());
+            while (true)
             {
-                var message = parser.ParseDelimitedFrom(memoryStream);
-                messages.Add(message);
-            }
-            catch (InvalidProtocolBufferException e)
-            {
-                // 途中でちぎれていた場合、次回に読むための処理
-                Console.WriteLine($"Incomplete message at position {memoryStream.Position}: {e.Message}");
-                unread.AddRange(memoryStream.ToArray()[(int)memoryStream.Position..(int)memoryStream.Length]);
-                break;
+                T message;
+                try
+                {
+                    message = parser.ParseDelimitedFrom(memoryStream);
+                }
+                catch (InvalidProtocolBufferException)
+                {
+                    // 途中でちぎれていた場合、次回に読むための処理
+                    unread = memoryStream.ToArray()[(int)memoryStream.Position..(int)memoryStream.Length].ToList();
+                    break;
+                }
+                yield return message;
             }
         }
 
         // 通信が途中で切れた場合に備えて未読データを記録しておく
         if (unread.Count > 0)
         {
-            Console.WriteLine($"Unprocessed data length: {unread.Count}");
             // 必要に応じて、`unread`リストのデータを保存や再試行処理などを行う
+            Console.WriteLine($"Unprocessed data length: {unread.Count}");
         }
-
-        return messages;
     }
 }

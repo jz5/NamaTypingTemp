@@ -42,40 +42,35 @@ class Program
         while (true)
         {
             // var at = next <= 0 ? "now" : next.ToString();
-
-            IEnumerable<ChunkedEntry> entries;
             try
             {
-                entries = await retriever.RetrieveAsync($"{uri}?at={next}", entryParser);
+                await foreach (var entry in retriever.RetrieveAsync($"{uri}?at={next}", entryParser))
+                {
+                    Console.WriteLine($"ChunkedEntry: {entry}"); // メッセージの内容を表示
+
+                    if (entry.EntryCase == ChunkedEntry.EntryOneofCase.Backward && initialPhase)
+                    {
+
+                    }
+                    else if (entry.EntryCase == ChunkedEntry.EntryOneofCase.Previous && initialPhase)
+                    {
+                        await PullMessage(retriever, messageParser, entry.Previous.Uri);
+                    }
+                    else if (entry.EntryCase == ChunkedEntry.EntryOneofCase.Segment)
+                    {
+                        await SleepUntil(entry.Segment.From, 1000);
+                        _ = PullMessage(retriever, messageParser, entry.Segment.Uri);
+                    }
+                    else if (entry.EntryCase == ChunkedEntry.EntryOneofCase.Next)
+                    {
+                        Console.WriteLine($"Next: {entry.Next.At}");
+                        next = entry.Next.At;
+                    }
+                }
             }
             catch (Exception e)
             {
                 Console.WriteLine($"Unexpected error: {e.Message}");
-                continue;
-            }
-            foreach (var entry in entries)
-            {
-                Console.WriteLine($"ChunkedEntry: {entry}"); // メッセージの内容を表示
-
-                if (entry.EntryCase == ChunkedEntry.EntryOneofCase.Backward && initialPhase)
-                {
-                    
-                }
-                else if (entry.EntryCase == ChunkedEntry.EntryOneofCase.Previous && initialPhase)
-                {
-                    await PullMessage(retriever, messageParser, entry.Previous.Uri);
-                }
-                else if (entry.EntryCase == ChunkedEntry.EntryOneofCase.Segment)
-                {
-                    await SleepUntil(entry.Segment.From, 1000);
-                    _ = PullMessage(retriever, messageParser, entry.Segment.Uri);
-                }
-                else if (entry.EntryCase == ChunkedEntry.EntryOneofCase.Next)
-                {
-                    Console.WriteLine($"Next: {entry.Next.At}");
-                    next = entry.Next.At;
-                }
-
             }
             initialPhase = false;
         }
@@ -101,30 +96,27 @@ class Program
         MessageParser<ChunkedMessage> parser,
         string uri)
     {
-        IEnumerable<ChunkedMessage> messages;
         try
         {
-            messages = await retriever.RetrieveAsync(uri, parser);
+            await foreach (var message in retriever.RetrieveAsync(uri, parser))
+            {
+
+                if (message.PayloadCase == ChunkedMessage.PayloadOneofCase.Message)
+                {
+                    var at = message.Meta.At.ToDateTimeOffset();
+                    Console.WriteLine($"{at}: {message.Message.Chat.Vpos}: {message.Message.Chat.Content}");
+                }
+                else
+                {
+                    Console.WriteLine($"{message.PayloadCase}");
+                }
+
+                // Console.WriteLine($"ChunkedMessage: {message}"); // メッセージの内容を表示
+            }
         }
         catch (Exception e)
         {
             Console.WriteLine($"Unexpected error: {e.Message}");
-            return;
-        }
-        foreach (var message in messages)
-        {
-            
-            if (message.PayloadCase == ChunkedMessage.PayloadOneofCase.Message)
-            {
-                var at = message.Meta.At.ToDateTimeOffset();
-                Console.WriteLine($"{at}: {message.Message.Chat.Vpos}: {message.Message.Chat.Content}");    
-            }
-            else
-            {
-                Console.WriteLine($"{message.PayloadCase}");
-            }
-            
-            // Console.WriteLine($"ChunkedMessage: {message}"); // メッセージの内容を表示
         }
     }
 }
