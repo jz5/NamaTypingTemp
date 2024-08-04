@@ -42,7 +42,17 @@ class Program
         while (true)
         {
             // var at = next <= 0 ? "now" : next.ToString();
-            var entries = await retriever.RetrieveAsync($"{uri}?at={next}", entryParser);
+
+            IEnumerable<ChunkedEntry> entries;
+            try
+            {
+                entries = await retriever.RetrieveAsync($"{uri}?at={next}", entryParser);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Unexpected error: {e.Message}");
+                continue;
+            }
             foreach (var entry in entries)
             {
                 Console.WriteLine($"ChunkedEntry: {entry}"); // メッセージの内容を表示
@@ -91,7 +101,16 @@ class Program
         MessageParser<ChunkedMessage> parser,
         string uri)
     {
-        var messages = await retriever.RetrieveAsync(uri, parser);
+        IEnumerable<ChunkedMessage> messages;
+        try
+        {
+            messages = await retriever.RetrieveAsync(uri, parser);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Unexpected error: {e.Message}");
+            return;
+        }
         foreach (var message in messages)
         {
             

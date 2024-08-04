@@ -1,4 +1,4 @@
-﻿using Google.Protobuf;
+using Google.Protobuf;
 
 namespace NamaTyping.NicoLive;
 
@@ -38,11 +38,6 @@ public class Retriever
                         unread.AddRange(memoryStream.ToArray()[(int)memoryStream.Position..(int)memoryStream.Length]);
                         break;
                     }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine($"Error decoding message: {e.Message}");
-                        throw;
-                    }
                 }
 
                 // 通信が途中で切れた場合に備えて未読データを記録しておく
@@ -62,10 +57,6 @@ public class Retriever
         {
             Console.WriteLine($"Network error while fetching messages: {e.Message}");
             // 通信エラーの再試行などの処理をここに追加
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine($"Unexpected error: {e.Message}");
         }
 
         return messages;
